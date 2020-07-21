@@ -47,9 +47,9 @@ Follow these steps to specify customer-managed encryption from the UI:
 
 | Field | Value |
 | ----- | ----- |
-| Encryption | _Provider managed_ is the default encryption mode. To use customer-managed encryption, select a key management service ({{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}}). The key management service instance includes the customer root key that you want to use for customer-managed encryption. |
+| Encryption | _Provider managed_ is the default encryption mode. To use customer-managed encryption, select a key management service ([{{site.data.keyword.keymanagementserviceshort}}](/docs/key-protect?topic=key-protect-getting-started-tutorial) or [{{site.data.keyword.hscrypto}}](/docs/hs-crypto?topic=hs-crypto-get-started)). The key management service instance includes the customer root key that you want to use for customer-managed encryption. |
 | Encryption service instance | If you provision multiple key management service instances in your account, select the one that includes the customer root key that you want to use for customer-managed encryption. |
-| Key name | Select the data encryption key within the {{site.data.keyword.keymanagementserviceshort}} instance that you want to use for encrypting the volume. |
+| Key name | Select the data encryption key within the {{site.data.keyword.keymanagementserviceshort}} or {{site.data.keyword.hscrypto}} instance that you want to use for encrypting the volume. |
 | Key ID | Displays the key ID that is associated with the data encryption key that you selected. |
 {: caption="Table 2. Values for customer-managed encryption" caption-side="top"}
 
